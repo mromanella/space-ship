@@ -1,0 +1,53 @@
+* {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.2em;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-primary {
+    justify-content: center;
+}
+
+.centered-secondary {
+    align-items: center;
+}
+
+.start-screen h1 {
+    font-size: 5.5em;
+}
+
+.content {
+    padding: 0 15px;
+}
+
+.play-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+
+}
